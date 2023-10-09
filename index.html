@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" media="screen and (max-width:600px)" href="phone.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Ubuntu:ital,wght@1,700&display=swap" rel="stylesheet">
+
+<body>
+    <nav id="navbar">
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#about">About Me</a></li>
+            <li class="item"><a href="#about">Works</a></li>
+            <li class="item"><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1>WEB DEVELOPER</h1>
+        <p>Coding the Web, Crafting the Future.</p>
+        <div id="btnn">
+            <button class="btn">Hire Me</button>
+            <button class="btn">Download CV</button>
+        </div>
+        <div class="media-icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </section>
+    <section id="about">
+        <h1 class="h-primary">About Me</h1>
+        <p>Hey there! My name is Sutapa Susovita Bhuyan. I'm a front-end web developer who is comfortable working with
+            JS,HTML,CSS and responsive web design to deliver exceptional customer experience. I'm curious, and I enjoy
+            work that challenges me to learn something new and stretch in a different direction. I do my best to stay on
+            top of changes in the state of art so that I can meet challenges with tools well suited to the job at hand.
+        </p>
+
+        <div class="work">
+            <h1 id="next">My Works:</h1>
+
+            <div class="box">
+                <img src="img1.png" alt="">
+                <h2 class="h-secondary center">Food Website</h2>
+                <a href="https://sutapasusovita.github.io/food-web/">Click here</a>
+            </div>
+            <div class="box">
+                <img src="img2.png" alt="">
+                <h2 class="h-secondary center">Login page</h2>
+                <a href="https://sutapasusovita.github.io/loginpage/">Click here</a>
+            </div>
+            <div class="box">
+                <img src="img3.png" alt="">
+                <h2 class="h-secondary center">Password generator</h2>
+                <a href="https://sutapasusovita.github.io/pw-gen/">Click here</a>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div id="contact-box">
+
+            <div id="contactme">
+                <h1 id="next2">Get in Touch</h1>
+                <p>We'd love to hear from you!
+                    <br>
+                    Whether you have a project in mind,a question about our work,
+                    don't hesitate to reach out to us. We're here to collaborate and bring your ideas to life. Let's
+                    start a conversation!
+                </p>
+                <div class="container">
+                      <p><span><i class="fa-solid fa-phone fa-beat-fade" style="color: #ffffff;"></i></span> +917978884268</p>
+                      <p><span><i class="fa-solid fa-envelope fa-beat-fade" style="color: #ffffff;"></i></span>     sutapabhuyan10@gmail.com</p>
+                </div>
+            </div>
+            <form action="">
+                <h1>Send me a message</h1>
+                <div class="form-group">
+                    <label for="name"></label>
+                    <input type="text" name="name" id="name" placeholder="NAME">
+                </div>
+                <div class="form-group">
+                    <label for="email"></label>
+                    <input type="email" name="name" id="email" placeholder="E-MAIL">
+                </div>
+                <div class="form-group">
+                    <label for="phone"></label>
+                    <input type="phone" name="name" id="phone" placeholder="PHONE NUMBER">
+                </div>
+                <div class="form-group">
+                    <label for="message"></label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="ENTER YOUR MESSAGE"></textarea>
+                </div>
+                <button class="btn" type="submit">Send message</button>
+            </form>
+        </div>
+
+    </section>
+
+</body>
+</html>

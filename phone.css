@@ -1,0 +1,23 @@
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a {
+    font-size: 0.7rem;
+    padding: 0px 4px;
+    padding-bottom: 8px;
+}
+
+#home {
+    height: 380px;
+    padding: 3px 68px;
+    flex-wrap: wrap;
+}
+
+#home::before {
+    height: 100%;
+}
+
+.btn {
+    height: 43px;
+}
